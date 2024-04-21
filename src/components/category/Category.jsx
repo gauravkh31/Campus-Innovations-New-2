@@ -3,36 +3,68 @@ import { useNavigate } from "react-router";
 // category 
 const category = [
     {
-        image: 'https://cdn-icons-png.flaticon.com/256/4359/4359963.png',
-        name: 'fashion'
+        image: 'https://cdn-icons-png.flaticon.com/256/11833/11833323.png',
+        name: 'DB Management'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/11833/11833323.png',
-        name: 'shirt'
+        name: 'AI/ML'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/8174/8174424.png',
-        name: 'jacket'
+        name: 'Devops'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/7648/7648246.png',
-        name: 'mobile'
+        name: 'Security'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/12142/12142416.png',
-        name: 'laptop'
+        name: 'Cloud'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/10686/10686553.png',
-        name: 'shoes'
+        name: 'fashion'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/12114/12114279.png',
-        name: 'home'
+        name: 'Testing'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
-        name: 'books'
+        name: 'Blockchain'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.L7Ga3nPZWlds5HTBH8-mAwHaD4?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+        name: 'CMS'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/11833/11833323.png',
+        name: 'Data S'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/8174/8174424.png',
+        name: 'HeatlthCare'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/7648/7648246.png',
+        name: 'Educational'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/12142/12142416.png',
+        name: 'Financial'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/10686/10686553.png',
+        name: 'Social Media'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/12114/12114279.png',
+        name: 'Robotics'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
+        name: 'Electronics'
     }
 ]
 
