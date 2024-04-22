@@ -63,7 +63,9 @@ const UpdateProductPage = () => {
     // Get Single Product Function
     const getSingleProductFunction = async () => {
         try {
-            const productTemp = await getDoc(doc(fireDB, "products", id))
+
+            // const productTemp = await getDoc(doc(fireDB, "products", id))
+            const productTemp = await getDoc(doc(fireDB, "projects", id))
             //   console.log(product.data())
             const product = productTemp.data();
             setProduct({
@@ -86,7 +88,9 @@ const UpdateProductPage = () => {
         setLoading(true)
         try {
 
-            await setDoc(doc(fireDB, 'products', id), product)
+            // await setDoc(doc(fireDB, 'products', id), product)
+            await setDoc(doc(fireDB, 'projects', id), product)
+
             toast.success("Product Updated successfully")
             getAllProductFunction();
             setLoading(false)

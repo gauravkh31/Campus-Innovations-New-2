@@ -20,7 +20,8 @@ function MyState({ children }) {
         setLoading(true);
         try {
             const q = query(
-                collection(fireDB, "products"),
+                // collection(fireDB, "products"),
+                collection(fireDB, "projects"),
                 orderBy('time')
             );
             const data = onSnapshot(q, (QuerySnapshot) => {

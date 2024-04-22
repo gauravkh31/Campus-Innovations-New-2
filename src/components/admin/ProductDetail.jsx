@@ -18,7 +18,9 @@ const ProductDetail = () => {
     const deleteProduct = async (id) => {
         setLoading(true)
         try {
-            await deleteDoc(doc(fireDB, 'products', id))
+            // await deleteDoc(doc(fireDB, 'products', id))
+
+            await deleteDoc(doc(fireDB, 'projects', id))
             toast.success('Product Deleted successfully')
             getAllProductFunction();
             setLoading(false)

@@ -24,7 +24,9 @@ const ProductInfo = () => {
     const getProductData = async () => {
         setLoading(true)
         try {
-            const productTemp = await getDoc(doc(fireDB, "products", id))
+            // const productTemp = await getDoc(doc(fireDB, "products", id))
+            const productTemp = await getDoc(doc(fireDB, "projects", id))
+
             // console.log({...productTemp.data(), id : productTemp.id})
             setProduct({...productTemp.data(), id : productTemp.id})
             setLoading(false)
